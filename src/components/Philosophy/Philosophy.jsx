@@ -2,8 +2,8 @@
 const Philosophy = () => {
     return (
         <div>
-            <h1 className="text-center">Our PHILOSOPHY</h1>
-            <h1 className="text-center">Human-centred innovation</h1>
+            <h1 className="text-center text-base lg:text-xl text-[#007bff]">Our PHILOSOPHY</h1>
+            <h1 className="text-center text-lg lg:text-3xl font-bold my-5">Human-centred innovation</h1>
 
 
             <div className="bg-[url(/src/assets/icons/easy-banking/Bridge.svg)] bg-repeat bg-cover  min-h-96 px-44 py-7">
@@ -46,52 +46,24 @@ const Philosophy = () => {
                 </div>
             </div>
 
+            {/* card container */}
 
-            {/* <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 bg-[url(/src/assets/icons/easy-banking/Bridge.svg)] bg-repeat bg-cover  min-h-96 px-44 py-7"> */}
-            {/* <div className="flex items-center bg-[url(/src/assets/icons/easy-banking/Bridge.svg)] bg-repeat bg-cover  min-h-96 px-44 py-32"> */}
-            <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 items-center">
-                {/* <div>
-                        <div className="shadow-xl bg-white px-20 py-7 ">
-                            <h3 className="text-[#007bff] font-medium text-sm text-center">CORE TECH</h3>
-                            <h1 className="text-[#333] font-bold text-xl mt-2 text-center">Artificial <br></br> Intelligence</h1>
-                        </div>
-                    </div>
-                    <div className="">
-                        <img src="/src/assets/icons/easy-banking/Line1.svg" alt="" className="lg:rotate-90" />
-                    </div> */}
-            </div>
-            {/* <p className="text-sm text-[#333] w-60 mt-2 ml-3">Using AI/ML to upgrade legacy process, reduce cost, and improve efficiency</p> */}
-
-            <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-20">
-                {/* <div className="relative">
-                        <div className="shadow-xl bg-white px-5 py-5 lg:px-20 lg:py-7">
-                            <h3 className="text-[#007bff] font-medium text-sm text-center">MECHANISM</h3>
-                            <h1 className="text-[#333] font-bold text-xl mt-5 text-center">Block Chain</h1>
-                        </div>
-                        <div className="absolute -bottom-16 -right-20 lg:-top-28 lg:-right-14  ">
-                            <img src="/src/assets/icons/easy-banking/Line3.svg" className="lg:-rotate-90 w-20 lg:w-full" />
-                        </div>
-                        <div className="absolute -left-20 lg:-right-14 top-28 ">
-                            <img src="/src/assets/icons/easy-banking/Line2.svg" className="lg:-rotate-90 w-20" />
-                        </div>
-                        <div className="absolute left-24 -bottom-40 block lg:hidden">
-                            <img src="/src/assets/icons/easy-banking/Line1.svg" alt="" className="rotate-90" />
-                        </div>
-                    </div> */}
-
-                {/* <div className="lg:mb-32 mt-10 shadow-xl bg-white px-5 py-5 lg:px-20 lg:py-7 absolute lg:relative -left-44 -top-3"> */}
-
-
-                {/* <div className="flex flex-row lg:flex-col gap-20 mt-5 relative">
-                        <div className="lg:mb-32 mt-10 shadow-xl bg-white px-5 py-5 lg:px-20 lg:py-7 sm:absolute lg:relative -left-44 lg:-left-0 -top-3 lg:-top-0">
-                            <h3 className="text-[#007bff] font-medium text-sm text-center ">INFRASTRUCTURE</h3>
-                            <h1 className="text-[#333] font-bold text-xl mt-2 text-center">Cloud</h1>
-                        </div>
-                        <div className="mt-10 shadow-xl bg-white px-5 py-5 lg:px-20 lg:py-7  sm:absolute lg:left-0 lg:-top-0 left-24 -top-3">
-                            <h3 className="text-[#007bff] font-medium text-sm text-center">RESOURCE</h3>
-                            <h1 className="text-[#333] font-bold text-xl mt-2 text-center">Data</h1>
-                        </div>
-                    </div> */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-20 mt-5">
+                <div className="bg-[F8FCFF] shadow-md my-10 px-10 py-5">
+                    <img src="https://cdn.sanity.io/images/6jywt20u/production/28029da89383a59e47420ee46b7e4c364051b45f-50x50.svg?w=50&auto=format" />
+                    <h1 className="font-medium text-lg text-[#333] my-2">Full-suite solutions</h1>
+                    <p className="text-base mb-2">Experience the ease of integration across various banking and payment functions with our comprehensive suite of solutions.</p>
+                </div>
+                <div className="bg-[F8FCFF] shadow-md my-10 px-10 py-5">
+                    <img src="https://cdn.sanity.io/images/6jywt20u/production/36c4da4283252fda5dce13c46ea3e06a5312218c-50x51.png?w=50&auto=format" />
+                    <h1 className="font-medium text-lg text-[#333] my-2">Simplify the complex</h1>
+                    <p className="text-base mb-2">Simplify complex processes and optimise your financial operations by leveraging the power of AI, Blockchain, Cloud Computing, and Big Data.</p>
+                </div>
+                <div className="bg-[F8FCFF] shadow-md my-10 px-10 py-5">
+                    <img src="https://cdn.sanity.io/images/6jywt20u/production/1966d94a29ffe1673fd510327ba0eb409f82b680-50x50.svg?w=50&auto=format" />
+                    <h1 className="font-medium text-lg text-[#333] my-2">Cutting-edge tech</h1>
+                    <p className="text-base mb-2">We seamlessly combine cutting-edge technologies, resulting in an unparalleled fintech experience for financial institutions.</p>
+                </div>
             </div>
         </div>
         // </div>
