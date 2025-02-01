@@ -1,0 +1,17 @@
+.bounce{
+    transition: ease-in-out;
+    animation: bounce 15s ease-in-out infinite;
+}
+
+.mouseOver:hover{
+    transition-duration: 5s;
+    transition: ease-in-out;
+    transform: translateX(-50px);
+
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+    100% {transform: translateY(0);}
+}

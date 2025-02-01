@@ -16,7 +16,6 @@
 .wave{
     transition: all;
     transition-duration: 1s;
-    /* height: 500px; */
 }
 
 .wave:hover{
