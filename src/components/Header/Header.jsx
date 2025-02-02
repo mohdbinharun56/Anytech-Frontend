@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div className='diagonal-section pb-10'>
-                <div className='absolute wave w-2/4  w-90 hidden lg:block'>
+                <div className='absolute wave w-2/4 hidden lg:block'>
                     <img src="/src/assets/backgrounds/WaveLinesDesktop1.svg"/>
                 </div>
                 <div className='wave absolute w-[500px] left-60 top-1/2 hidden lg:block '>
